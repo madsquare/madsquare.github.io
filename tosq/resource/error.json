@@ -1,0 +1,46 @@
+{
+  "common.missing_required_parameter": [
+    400,
+    "The request is missing a required parameter."
+  ],
+  "common.method_not_allowed": [
+    400,
+    "The API call is correct, but the method is not allowed."
+  ],
+  "common.unexpected_parameter": [
+    400,
+    "The request specifies an unexpected parameter."
+  ],
+  "common.invalid_json_string": [
+    400,
+    "Problems parsing JSON."
+  ],
+  "video.not_found": [
+    404,
+    "Cannot found video on url(site)."
+  ],
+  "video.channel_not_found": [
+    404,
+    "Cannot found channel on url(site)."
+  ],
+  "video.forbidden": [
+    403,
+    "Cannot use on external site."
+  ],
+  "video.age_restricted": [
+    403,
+    "Age Restricted video."
+  ],
+  "video.vimeo_required_authorization": [
+    500,
+    "The requested URL returned error."
+  ],
+  "video.not_supported_provider": [
+    500,
+    "Not supported video provider.(only youtube, vimeo, facebook)."
+  ],
+  "video.invalid_url": [
+    500,
+    "Invalid url. It will not be able to get the information."
+  ]
+}

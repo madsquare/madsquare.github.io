@@ -1,4 +1,8 @@
 {
+  "common.invalid_authentication": [
+    403,
+    "The request is invalid authorization data."
+  ],
   "common.missing_required_parameter": [
     400,
     "The request is missing a required parameter."

@@ -35,6 +35,9 @@ common.authorization_required:
 common.required_permissions: 
   - 401
   - "Required permissions for request."
+common.invalid_parameter:
+  - 400
+  - "Invalid parameter value."
 common.invalid_since_no: 
   - 400
   - "If since_no and max_no is specified at the same time, since_no does not have to be a big number than max_no."
@@ -254,11 +257,3 @@ video.not_supported_provider:
 video.invalid_url: 
   - 500
   - "Invalid url. It will not be able to get the information."
-
-# hippo
-hippo.invalid_country_code
-  - 500
-  - "Invalid country code."
-hippo.invalid_offset
-  - 500
-  - "Invalid timezone offset."

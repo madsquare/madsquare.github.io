@@ -255,3 +255,10 @@ video.invalid_url:
   - 500
   - "Invalid url. It will not be able to get the information."
 
+# hippo
+hippo.invalid_country_code
+  - 500
+  - "Invalid country code."
+hippo.invalid_offset
+  - 500
+  - "Invalid timezone offset."

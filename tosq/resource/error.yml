@@ -121,6 +121,9 @@ channel.duplicate_number:
 channel.duplicate_url: 
   - 409
   - "This url is already exists."
+channel.duplicate_name: 
+  - 409
+  - "This name is already exists."
 channel.already_been_registered: 
   - 409
   - "Other channels have already been registered."

@@ -47,6 +47,10 @@
     401,
     "Required permissions for request."
   ],
+  "common.invalid_parameter": [
+    400,
+    "Invalid parameter value."
+  ],
   "common.invalid_since_no": [
     400,
     "If since_no and max_no is specified at the same time, since_no does not have to be a big number than max_no."
@@ -146,6 +150,10 @@
   "channel.duplicate_url": [
     409,
     "This url is already exists."
+  ],
+  "channel.duplicate_name": [
+    409,
+    "This name is already exists."
   ],
   "channel.already_been_registered": [
     409,

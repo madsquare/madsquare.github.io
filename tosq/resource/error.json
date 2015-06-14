@@ -60,7 +60,7 @@
     "Problems parsing JSON."
   ],
   "common.file_limit_exceeded": [
-    400
+    400,
     "File size limit exceeded."
   ],
   "client.duplicate_client_name": [

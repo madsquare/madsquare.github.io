@@ -44,6 +44,10 @@ common.invalid_since_no:
 common.invalid_json_string: 
   - 400
   - "Problems parsing JSON."
+common.file_limit_exceeded:
+  - 400
+  - "File size limit exceeded."
+
 client.duplicate_client_name: 
   - 409
   - "Only one client per user."

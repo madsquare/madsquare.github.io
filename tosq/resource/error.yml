@@ -163,15 +163,18 @@ resource.invalid_type:
 resource.not_supported_provider: 
   - 500
   - "Not supported video provider.(only youtube, vimeo)."
-resources.video_not_found: 
+resource.video_not_found: 
   - 404
   - "Cannot found video on url(site)."
-resources.forbidden_video: 
+resource.forbidden_video: 
   - 403
   - "Cannot use on external site."
-resources.vimeo_required_authorization: 
+resource.vimeo_required_authorization: 
   - 500
   - "The requested URL returned error."
+resource.duplicate_original_resource: 
+  - 409
+  - "This resource is already exists."
 
 # comment
 comment.not_exists: 

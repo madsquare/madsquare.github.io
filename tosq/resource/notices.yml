@@ -1,0 +1,8 @@
+# syntax
+# - http://symfony.com/doc/current/components/yaml/yaml_format.html
+# please check validate
+# - http://codebeautify.org/yaml-validator
+# - http://yaml-online-parser.appspot.com
+
+- { id: 20150611, name: promotion title - 1, url: http://btv2.tosq.co/help/notice?layout=mobile }
+- { id: 20150612, name: promotion title - 2, url: http://btv2.tosq.co/help/faq?layout=mobile }

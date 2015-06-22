@@ -131,6 +131,9 @@
     404,
     "There is empty list."
   ],
+  "category.not_exists": [
+    404, "There is no category to return for the specified."
+  ],
   "channel.not_exists": [
     404,
     "There is no channel to return for the specified."

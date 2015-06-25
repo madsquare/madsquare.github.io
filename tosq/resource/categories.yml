@@ -11,7 +11,7 @@
     logo_url: 
         default: ''
         2x: ''
-        3x:
+        3x: ''
 - 
     id: 2
     name: 유머
@@ -19,7 +19,7 @@
     logo_url: 
         default: ''
         2x: ''
-        3x:
+        3x: ''
 - 
     id: 3
     name: 음악
@@ -27,7 +27,7 @@
     logo_url: 
         default: ''
         2x: ''
-        3x:
+        3x: ''
 - 
     id: 4
     name: 엔터테인먼트&연예
@@ -35,7 +35,7 @@
     logo_url: 
         default: ''
         2x: ''
-        3x:
+        3x: ''
 - 
     id: 5
     name: 라이프
@@ -43,7 +43,7 @@
     logo_url: 
         default: ''
         2x: ''
-        3x:
+        3x: ''
 - 
     id: 6
     name: 뷰티&패션
@@ -51,7 +51,7 @@
     logo_url: 
         default: ''
         2x: ''
-        3x:
+        3x: ''
 - 
     id: 7
     name: 애니&영화
@@ -59,7 +59,7 @@
     logo_url: 
         default: ''
         2x: ''
-        3x:
+        3x: ''
 - 
     id: 8
     name: 교육&다큐
@@ -67,7 +67,7 @@
     logo_url: 
         default: ''
         2x: ''
-        3x:
+        3x: ''
 - 
     id: 9
     name: 스포츠&게임
@@ -75,7 +75,7 @@
     logo_url: 
         default: ''
         2x: ''
-        3x:
+        3x: ''
 - 
     id: 10
     name: 성인
@@ -83,4 +83,4 @@
     logo_url: 
         default: ''
         2x: ''
-        3x:
+        3x: ''

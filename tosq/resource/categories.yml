@@ -9,78 +9,78 @@
     name: 개인&주제없는채널
     sub_name: 토스커들의 전당
     logo_url: 
-        default: ''
-        2x: ''
-        3x: ''
+        basic: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/1.png'
+        2x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%402x/1.png'
+        3x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%403x/1.png'
 - 
     id: 2
     name: 유머
     sub_name: 웃어 제끼고 싶을 때
     logo_url: 
-        default: ''
-        2x: ''
-        3x: ''
+        basic: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/2.png'
+        2x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%402x/2.png'
+        3x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%403x/2.png'
 - 
     id: 3
     name: 음악
     sub_name: 뮤직Q
     logo_url: 
-        default: ''
-        2x: ''
-        3x: ''
+        basic: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/3.png'
+        2x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%402x/3.png'
+        3x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%403x/3.png'
 - 
     id: 4
     name: 엔터테인먼트&연예
     sub_name: 난 네게 빠졌어
     logo_url: 
-        default: ''
-        2x: ''
-        3x: ''
+        basic: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/4.png'
+        2x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%402x/4.png'
+        3x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%403x/4.png'
 - 
     id: 5
     name: 라이프
     sub_name: 일상의 즐거움
     logo_url: 
-        default: ''
-        2x: ''
-        3x: ''
+        basic: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/5.png'
+        2x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%402x/5.png'
+        3x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%403x/5.png'
 - 
     id: 6
     name: 뷰티&패션
     sub_name: 부티나게 뷰티하기
     logo_url: 
-        default: ''
-        2x: ''
-        3x: ''
+        basic: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/6.png'
+        2x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%402x/6.png'
+        3x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%403x/6.png'
 - 
     id: 7
     name: 애니&영화
     sub_name: 애니볼까 영화볼까
     logo_url: 
-        default: ''
-        2x: ''
-        3x: ''
+        basic: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/7.png'
+        2x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%402x/7.png'
+        3x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%403x/7.png'
 - 
     id: 8
     name: 교육&다큐
     sub_name: 지금은 뇌섹시대
     logo_url: 
-        default: ''
-        2x: ''
-        3x: ''
+        basic: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/8.png'
+        2x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%402x/8.png'
+        3x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%403x/8.png'
 - 
     id: 9
     name: 스포츠&게임
     sub_name: 세상의 모든 스포츠
     logo_url: 
-        default: ''
-        2x: ''
-        3x: ''
+        basic: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/9.png'
+        2x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%402x/9.png'
+        3x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%403x/9.png'
 - 
     id: 10
     name: 성인
     sub_name: 므흣..엄빠주의
     logo_url: 
-        default: ''
-        2x: ''
-        3x: ''
+        basic: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/10.png'
+        2x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%402x/10.png'
+        3x: 'https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/img/categories/%403x/10.png'

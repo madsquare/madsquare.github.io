@@ -123,6 +123,9 @@
     403,
     "The unauthorized e-mail address."
   ],
+  "user.channel_limit_exceeded:": [
+    400, "Exceed the maximum number of allowed channels."
+  ],
   "follow.cannot_follow_yourself": [
     400,
     "Error you cannot follow yourself."

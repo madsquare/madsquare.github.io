@@ -95,6 +95,9 @@ user.not_matched_verify_token:
 user.unauthorized_email: 
   - 403
   - "The unauthorized e-mail address."
+user.channel_limit_exceeded:
+  - 400
+  - "Exceed the maximum number of allowed channels."
 
 # follow
 follow.cannot_follow_yourself: 

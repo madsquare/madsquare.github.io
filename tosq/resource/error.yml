@@ -160,6 +160,9 @@ channel.invalid_ratings:
 channel.invalid_privacy: 
   - 400
   - "Invalid privacy type or value."
+channel.resource_limit_exceeded:
+  - 400
+  - "Exceed the maximum number of allowed resources."
 
 # resource
 resource.not_exists: 

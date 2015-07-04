@@ -44,7 +44,7 @@
 'common.invalid_json_string': [
     400, 'Problems parsing JSON.'
 ]
-'common.file_limit_exceeded:': [
+'common.file_limit_exceeded': [
     400, "File size limit exceeded."
 ]
 
@@ -98,7 +98,7 @@
 'user.unauthorized_email': [
     403, 'The unauthorized e-mail address.'
 ]
-'user.channel_limit_exceeded:': [
+'user.channel_limit_exceeded': [
     400, "Exceed the maximum number of allowed channels."
 ]
 
@@ -162,6 +162,9 @@
 ]
 'channel.invalid_privacy': [
     400, 'Invalid privacy type or value.'
+]
+'channel.resource_limit_exceeded': [
+    400, "Exceed the maximum number of allowed resources."
 ]
 
 # resources

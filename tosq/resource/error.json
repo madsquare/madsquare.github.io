@@ -63,6 +63,10 @@
     400,
     "File size limit exceeded."
   ],
+  "common.duplicate_request": [
+    409, 
+    "The requested operation is being processed previously."
+  ],
   "client.duplicate_client_name": [
     409,
     "Only one client per user."

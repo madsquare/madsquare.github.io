@@ -47,7 +47,12 @@ common.invalid_json_string:
 common.file_limit_exceeded:
   - 400
   - "File size limit exceeded."
+common.duplicate_request:
+  - 409
+  - "The requested operation is being processed previously."
 
+
+# client
 client.duplicate_client_name: 
   - 409
   - "Only one client per user."

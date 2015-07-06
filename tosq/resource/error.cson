@@ -47,6 +47,9 @@
 'common.file_limit_exceeded': [
     400, "File size limit exceeded."
 ]
+'common.duplicate_request': [
+    409, "The requested operation is being processed previously."
+]
 
 
 # client

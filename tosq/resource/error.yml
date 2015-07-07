@@ -97,6 +97,13 @@ user.expired_reset_passwd_token:
 user.not_matched_verify_token: 
   - 403
   - "User information does not match."
+user.already_verified_email:
+  - 409
+  - "Email address is already verified"
+user.unverified_email:
+  - 403
+  - "Email address is not verified."
+# 사용 안함.
 user.unauthorized_email: 
   - 403
   - "The unauthorized e-mail address."

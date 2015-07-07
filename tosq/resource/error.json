@@ -123,6 +123,12 @@
     403,
     "User information does not match."
   ],
+  "user.already_verified_email": [
+    409, "Email address is already verified"
+  ],
+  "user.unverified_email": [
+    403, "Email address is not verified."
+  ],
   "user.unauthorized_email": [
     403,
     "The unauthorized e-mail address."

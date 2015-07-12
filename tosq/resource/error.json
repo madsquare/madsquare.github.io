@@ -144,6 +144,10 @@
     404,
     "There is empty list."
   ],
+  "subscription.self_channels_cannot_subscribe": [
+    400, 
+    "Self channels can not subscribe."
+  ],
   "category.not_exists": [
     404, "There is no category to return for the specified."
   ],

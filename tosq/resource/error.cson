@@ -252,6 +252,15 @@
     400, 'The type is invalid value.'
 ]
 
+# timeline
+'timeline.not_exists': [
+    404, "There is no timeline to return for the specified."
+]
+
+'timeline.duplicate_channel': [
+    409, "There is duplicate channel."
+]
+
 
 # video_helper
 'validate.video_not_found': [

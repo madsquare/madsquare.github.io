@@ -4,6 +4,9 @@
 # - http://codebeautify.org/yaml-validator
 # - http://yaml-online-parser.appspot.com
 
-api: http://api.tosq.co
-search: http://search.api.tosq.co
-service: http://btv2.tosq.co
+# api: http://api.tosq.co
+# search: http://search.api.tosq.co
+# service: http://btv2.tosq.co
+api: https://api-stg.tosq.tv
+search: https://search-api-stg.tosq.tv
+service: https://stg.tosq.tv

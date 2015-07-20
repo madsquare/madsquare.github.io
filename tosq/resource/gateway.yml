@@ -7,6 +7,6 @@
 # api: http://api.tosq.co
 # search: http://search.api.tosq.co
 # service: http://btv2.tosq.co
-api: https://api-stg.tosq.tv
-search: https://search-api-stg.tosq.tv
-service: https://stg.tosq.tv
+api: http://api-stg.tosq.tv
+search: http://search-api-stg.tosq.tv
+service: http://stg.tosq.tv

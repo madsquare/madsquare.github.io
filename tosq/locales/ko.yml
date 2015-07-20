@@ -1,0 +1,12 @@
+activity:
+    note:
+        channel_follow: "'__actor.display_name__' PD님이 \"__target.name__\" 채널을 구독하기 시작하였습니다."
+        comment_add: "'__actor.display_name__' PD님이 \"__target.name__\" 채널에 한줄평을 남겼습니다."
+        channel_info_update: "\"__target.name__\" 채널의 방송이 업데이트 되었습니다."
+        channel_broadcast: "\"__target.name__\" 채널의 방송이 업데이트 되었습니다."
+        channel_subscribe: "'__actor.display_name__' PD님이 \"__target.name__\" 채널을 구독하기 시작하였습니다."
+        channel_push: "\"__target.name__\" 채널의 방송이 업데이트 되었습니다."
+        top100: "\"__target.name__\" 채널이 Top100에 선정되었습니다."
+        recommend: "\"__target.name__\" 채널이 추천채널에 선정되었습니다."
+        timeline_pd: "\"__target.name__\" 채널이 '오늘의 스타'에 선정되었습니다."
+        timeline_channel: "\"__target.name__\" 채널이 '오늘의 채널'에 선정되었습니다."

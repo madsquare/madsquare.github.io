@@ -1,0 +1,153 @@
+activity:
+    note:
+        channel_follow: "'__actor.display_name__' PD님이 \"__target.name__\" 채널을 구독하기 시작하였습니다."
+        comment_add: "'__actor.display_name__' PD님이 \"__target.name__\" 채널에 한줄평을 남겼습니다."
+        channel_info_update: "\"__target.name__\" 채널의 방송이 업데이트 되었습니다."
+        channel_broadcast: "\"__target.name__\" 채널의 방송이 업데이트 되었습니다."
+        channel_subscribe: "'__actor.display_name__' PD님이 \"__target.name__\" 채널을 구독하기 시작하였습니다."
+        channel_push: "\"__target.name__\" 채널의 방송이 업데이트 되었습니다."
+        top100: "\"__target.name__\" 채널이 Top100에 선정되었습니다."
+        recommend: "\"__target.name__\" 채널이 추천채널에 선정되었습니다."
+        timeline_pd: "\"__target.name__\" 채널이 '오늘의 스타'에 선정되었습니다."
+        timeline_channel: "\"__target.name__\" 채널이 '오늘의 채널'에 선정되었습니다."
+
+error:
+    # common
+    common:
+        forbidden: "Access forbidden. The request may not be properly authorized."
+        quota_exceeded: "The rquest cannot be completed because you have exceed you quota."
+        invalid_client: "The request is invalid client data."
+        invalid_authentication: "The request is invalid authorization data."
+        not_exist_token: "There is no token data."
+        expired_access_token: "The token is expired."
+        expired_refresh_token: "The token is expired."
+        missing_required_parameter: "The request is missing a required parameter."
+        method_not_allowed: "The API call is correct, but the method is not allowed."
+        unexpected_parameter: "The request specifies an unexpected parameter."
+        authorization_required: "The request uses the parameter required authorized but is not properly."
+        required_permissions: "Required permissions for request."
+        invalid_parameter: "Invalid parameter value."
+        invalid_since_no: "If since_no and max_no is specified at the same time, since_no does not have to be a big number than max_no."
+        invalid_json_string: "Problems parsing JSON."
+        file_limit_exceeded: "File size limit exceeded."
+        duplicate_request: "The requested operation is being processed previously."
+
+    # client
+    client:
+        duplicate_client_name: "Only one client per user."
+
+    # user
+    user:
+        not_exists: "There is no user to return for the specified."
+        invalid_email: "Invalid email address. please only use alphanumeric characters."
+        invalid_display_name: "Invalid display name. please only starting in alphabet and allow use numeric and '-, _' characters."
+        invalid_gender: "Invalid gender type."
+        incorrect_email: "The email you entered does not belong to any account."
+        incorrect_passwd: "Incorrect password."
+        duplicate_email: "There is duplicate email user."
+        duplicate_display_name: "There is duplicate display_name."
+        invalid_login_info: "Incorrect email or password."
+        not_exist_verify_token: "There is no data to verify the email address."
+        not_exist_reset_passwd_token: "There is no data to reset password."
+        expired_reset_passwd_token: "The reset password token is expired."
+        not_matched_verify_token: "User information does not match."
+        already_verified_email: "Email address is already verified"
+        unverified_email: "Email address is not verified."
+        channel_limit_exceeded: "Exceed the maximum number of allowed channels."
+
+    # subscription
+    subscription:
+        empty_channel: "There is empty list."
+        self_channels_cannot_subscribe: "Self channels can not subscribe."
+
+    # category
+    category:
+        not_exists: "There is no category to return for the specified."
+
+    # channel
+    channel:
+        not_exists: "There is no channel to return for the specified."
+        duplicate_resource: "This resource is already exists."
+        duplicate_original_resource: "This resource is already exists."
+        resource_not_exists: "There is no resource to return for the specified channel."
+        duplicate_number: "This number is already exists."
+        duplicate_url: "This url is already exists."
+        duplicate_name: "This name is already exists."
+        already_been_registered: "Other channels have already been registered."
+        invalid_state: "Invalid channel state value."
+        invalid_category: "Invalid channel category value."
+        invalid_label: "Invalid channel label value."
+        invalid_parameter_value: "Invalid parameter value."
+        invalid_url: "Invalid url value. please only starting in alphabet and allow use numeric and `-`, `_` characters."
+        invalid_ratings: "Invalid ratings value."
+        invalid_privacy: "Invalid privacy type or value."
+        resource_limit_exceeded: "Exceed the maximum number of allowed resources."
+
+    # resource
+    resource:
+        not_exists: "There is no resource to return for the specified."
+        invalid_type: "Invalid resource type."
+        not_supported_provider: "Not supported video provider.(only youtube, vimeo)."
+        video_not_found: "Cannot found video on url(site)."
+        forbidden_video: "Cannot use on external site."
+        vimeo_required_authorization: "The requested URL returned error."
+        duplicate_original_resource: "This resource is already exists."
+
+    # comment
+    comment:
+        not_exists: "There is no comment to return for the specified."
+
+    # report
+    report:
+        not_exists: "There is no report to return for the specified."
+
+    # sns
+    sns:
+        unsupport_provider: "It is unsupported provider."
+        cannot_authenticate: "Cannot authenticate user."
+        unverified_email: "Only verified email address is possible."
+        invalid_token: "The request is invalid token data."
+
+    # restriction
+    restriction:
+        invalid_etime: "Invalid end time value."
+
+    # device
+    device:
+        invalid_secret: "The request is invalid secret data."
+        not_exists: "There is no device to return for the specified."
+
+    # activity
+    activity:
+        not_exists: "There is no activity to return for the specified."
+
+    # notification
+    notification:
+        invalid_type: "The type is invalid value."
+
+    # timeline
+    timeline:
+        not_exists: "There is no timeline to return for the specified."
+        duplicate_channel: "There is duplicate channel."
+
+    # validate
+    validate:
+        video_not_found: "Cannot found video on url(site)."
+        channel_not_found: "Cannot found channel on url(site)."
+        forbidden_video: "Cannot use on external site."
+        video_age_restricted: "Age Restricted video."
+        vimeo_required_authorization: "The requested URL returned error."
+
+    # cache
+    cache:
+        invalid_token: "The token value is invalid."
+
+    # video
+    video:
+        not_found: "Cannot found video on url(site)."
+        channel_not_found: "Cannot found channel on url(site)."
+        forbidden: "Cannot use on external site."
+        age_restricted: "Age Restricted video."
+        vimeo_required_authorization: "The requested URL returned error."
+        not_supported_provider: "Not supported video provider.(only youtube, vimeo, facebook)."
+        invalid_url: "Invalid url. It will not be able to get the information."

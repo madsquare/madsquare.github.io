@@ -2,5 +2,5 @@
 	"code": 16,
 	"min": 16,
 	"name": "1.0.1",
-	"url": "https://s3-ap-northeast-1.amazonaws.com/tosq.tv/apk/SNACKK_signed_v1.0.1.apk"
+	"url": "market://details?id=com.madsquare.android.tosquare"
 }

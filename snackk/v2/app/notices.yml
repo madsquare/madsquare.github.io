@@ -1,0 +1,30 @@
+# syntax
+# - http://symfony.com/doc/current/components/yaml/yaml_format.html
+# please check validate
+# - http://codebeautify.org/yaml-validator
+# - http://yaml-online-parser.appspot.com
+
+# tosq service에서 사용되는 각종 설정값을 정의하며 그 구조는 변경 가능하나 사전 협의 필요.
+
+-
+    title: JYP Entertainment TV 오픈
+    # A: 닫기 버튼만 존재
+    # B: 확인 / 닫기 버튼 존재 - 확인시 지정된 deeplink로 이동
+    # C: 확인 - 무조건 지정된 deeplink로 이동.
+    type: B
+    image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/notice_01.jpg
+    deeplink: tosq://pd/3795
+    init: 
+        route: pd
+        user:
+            us_no: 3795
+
+-
+    title: 레페리 뷰티 TV
+    type: C
+    image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/notice_02.jpg
+    deeplink: tosq://pd/3797
+    data:
+        route: pd
+        user:
+            us_no: 3797

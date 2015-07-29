@@ -1,0 +1,13 @@
+# syntax
+# - http://symfony.com/doc/current/components/yaml/yaml_format.html
+# please check validate
+# - http://codebeautify.org/yaml-validator
+# - http://yaml-online-parser.appspot.com
+
+# api: http://api.tosq.co
+# search: http://search.api.tosq.co
+# service: http://btv2.tosq.co
+api: https://api.snackk.tv
+search: https://search-api.snackk.tv
+service: https://snackk.tv
+hippo: https://hippo-api.snackk.tv

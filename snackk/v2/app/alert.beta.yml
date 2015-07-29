@@ -5,7 +5,6 @@
 # - http://yaml-online-parser.appspot.com
 
 # tosq service에서 사용되는 각종 설정값을 정의하며 그 구조는 변경 가능하나 사전 협의 필요.
-contest:
-    ongoing: true
-    stime: 2015-06-20T00:00:00+00:00
-    etime: 2015-07-20T00:00:00+00:00
+title: 긴급공지
+message: 서비스 점검중입니다. 버그 수정 중. 슬프네요.
+block: true

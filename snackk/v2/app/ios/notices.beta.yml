@@ -10,7 +10,7 @@
     id: 15072801
     title: JYP Entertainment TV 오픈
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/notice_01.jpg
-    block: N
+    block: false
     btns: 
         - 
             txt: 이동하기
@@ -27,7 +27,7 @@
     id: 15072802
     title: 레페리 뷰티 TV - 외부 링크
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/notice_02.jpg
-    block: N
+    block: false
     btns:
         -
             txt: 이동하기
@@ -40,5 +40,5 @@
     id: 15072803
     title: 시스템 공지
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/notice_02.jpg
-    block: Y
-    btns:
+    block: true
+    btns: []

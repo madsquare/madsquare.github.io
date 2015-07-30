@@ -11,6 +11,7 @@
     title: JYP Entertainment TV 오픈
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/notice_01.jpg
     block: false
+    allow_hidden: true
     btns: 
         - 
             txt: 이동하기
@@ -28,6 +29,7 @@
     title: 레페리 뷰티 TV - 외부 링크
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/notice_02.jpg
     block: false
+    allow_hidden: true
     btns:
         -
             txt: 이동하기
@@ -41,4 +43,5 @@
     title: 시스템 공지
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/notice_02.jpg
     block: true
+    allow_hidden: false
     btns: []

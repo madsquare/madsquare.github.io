@@ -9,24 +9,36 @@
 -
     id: 15072801
     title: JYP Entertainment TV 오픈
-    # A: 닫기 버튼만 존재
-    # B: 확인 / 닫기 버튼 존재 - 확인시 지정된 deeplink로 이동
-    # C: 확인 - 무조건 지정된 deeplink로 이동.
-    type: B
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/notice_01.jpg
-    deeplink: tosq://pd/3795
-    data: 
-        route: pd
-        user:
-            us_no: 3795
+    block: N
+    btns: 
+        - 
+            txt: 이동하기
+            deeplink: tosq://pd/3795
+            data: 
+                route: pd
+                user:
+                    us_no: 3795
 
+        -
+            txt: 닫기
+            deeplink: close
 -
     id: 15072802
-    title: 레페리 뷰티 TV
-    type: C
+    title: 레페리 뷰티 TV - 외부 링크
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/notice_02.jpg
-    deeplink: tosq://pd/3797
-    data:
-        route: pd
-        user:
-            us_no: 3797
+    block: N
+    btns:
+        -
+            txt: 이동하기
+            deeplink: https://snackk.tv/help/notice/206827167
+        -
+            txt: 닫기
+            deeplink: close
+
+-
+    id: 15072803
+    title: 시스템 공지
+    image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/notice_02.jpg
+    block: Y
+    btns:

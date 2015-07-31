@@ -11,7 +11,6 @@
     title: 시스템 공지 - 앱 종료 및 차단.
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/block.png
     block: true
-    allow_hidden: false
     btns: []
 
 -
@@ -19,19 +18,24 @@
     title: '외부 링크 - 버튼: 그만보기 확인'
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/deeplink_notice.png
     block: false
-    allow_hidden: true
     btns:
+        -
+            txt: 그만보기
+            deeplink: close:hidden
         -
             txt: 확인
             deeplink: https://btv2.snackk.tv/help/notice/206827167
+            type: 
 
 -
     id: 15072801
     title: '채널 딥링크 - 버튼: 그만보기 이동히가'
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/deeplink_ch.png
     block: false
-    allow_hidden: true
     btns: 
+        -
+            txt: 그만보기
+            deeplink: close:hidden
         - 
             txt: 이동하기
             deeplink: tosq://ch/2470

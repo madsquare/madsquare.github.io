@@ -16,7 +16,7 @@
 
 -
     id: 15072802
-    title: 외부 링크 - 버튼: 그만보기 확인
+    title: '외부 링크 - 버튼: 그만보기 확인'
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/deeplink_notice.png
     block: false
     allow_hidden: true
@@ -27,7 +27,7 @@
 
 -
     id: 15072801
-    title: 채널 딥링크 - 버튼: 그만보기 이동히가
+    title: '채널 딥링크 - 버튼: 그만보기 이동히가'
     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/deeplink_ch.png
     block: false
     allow_hidden: true

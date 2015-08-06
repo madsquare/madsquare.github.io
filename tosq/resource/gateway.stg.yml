@@ -9,5 +9,5 @@
 # service: http://btv2.tosq.co
 api: https://api-stg.snackk.tv
 search: https://search-api-stg.snackk.tv
-service: https://stg.snackk.tv
+service: http://stg.snackk.tv
 hippo: https://hippo-api-stg.snackk.tv

@@ -6,12 +6,12 @@
 
 # tosq service에서 사용되는 각종 설정값을 정의하며 그 구조는 변경 가능하나 사전 협의 필요.
 
--
-    id: 15072803
-    title: 시스템 공지 - 앱 종료 및 차단.
-    image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/block.png
-    block: true
-    btns: []
+# -
+#     id: 15072803
+#     title: 시스템 공지 - 앱 종료 및 차단.
+#     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/block.png
+#     block: true
+#     btns: []
 
 -
     id: 15072802

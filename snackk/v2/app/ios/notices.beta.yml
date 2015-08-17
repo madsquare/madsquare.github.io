@@ -55,4 +55,4 @@
             deeplink: close
         -
             txt: 이벤트 보기
-            deeplink: http://btv2.snackk.tv/event/open
+            deeplink: http://btv2.snackk.tv/event/open?utm_source=notice&utm_medium=ios&utm_campaign=open_event

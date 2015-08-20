@@ -51,8 +51,8 @@
     block: false
     btns:
         -
-            txt: 닫기
-            deeplink: close
+            txt: 그만보기
+            deeplink: close:hidden
         -
             txt: 이벤트 보기
             deeplink: http://snackk.tv/event/open?utm_source=notice&utm_medium=ios&utm_campaign=open_event

@@ -223,6 +223,9 @@
 'sns.unverified_email': [
     400, 'Only verified email address is possible.'
 ]
+'sns.not_exists_email': [
+    400, 'E-mail does not exist. Please check the information on the service.'
+]
 'sns.invalid_token': [
     403, 'The request is invalid token data.'
 ]

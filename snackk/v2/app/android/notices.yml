@@ -45,9 +45,9 @@
 #                     us_no: 2470
 
 -
-    id: 15081701
+    id: 15091701
     title: SNACKK 오픈 이벤트
-    image: https://d2kpc3b1mv1660.cloudfront.net/app/notice/event_150817.jpg
+    image: https://d2kpc3b1mv1660.cloudfront.net/app/notice/m_event_popup.jpg
     block: false
     btns:
         -

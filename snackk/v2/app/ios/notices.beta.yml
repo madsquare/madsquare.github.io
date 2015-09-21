@@ -44,15 +44,15 @@
 #                 user:
 #                     us_no: 2470
 
--
-    id: 15091701
-    title: SNACKK 오픈 이벤트
-    image: https://d2kpc3b1mv1660.cloudfront.net/app/notice/m_event_popup.jpg
-    block: false
-    btns:
-        -
-            txt: 그만보기
-            deeplink: close:hidden
-        -
-            txt: 이벤트 보기
-            deeplink: http://snackk.tv/event/open?utm_source=notice&utm_medium=ios&utm_campaign=open_event
+# -
+#     id: 15091701
+#     title: SNACKK 오픈 이벤트
+#     image: https://d2kpc3b1mv1660.cloudfront.net/app/notice/m_event_popup.jpg
+#     block: false
+#     btns:
+#         -
+#             txt: 그만보기
+#             deeplink: close:hidden
+#         -
+#             txt: 이벤트 보기
+#             deeplink: http://snackk.tv/event/open?utm_source=notice&utm_medium=ios&utm_campaign=open_event

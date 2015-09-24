@@ -63,7 +63,7 @@
     block: false
     btns:
         -
-            txt: 오늘 그만보기
+            txt: 그만보기
             deeplink: close:hidden
         -
             txt: 이벤트 보기

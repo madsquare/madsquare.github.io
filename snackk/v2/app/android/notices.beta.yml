@@ -73,7 +73,7 @@
 -
     id: 15101401
     title: 어짜피 덕질할거 기부하며 덕질하자!
-    image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/m_event_idol_popup.jpg
+    image: https://d2kpc3b1mv1660.cloudfront.net/app/notice/m_event_idol_popup_fix.jpg
     block: false
     btns:
         -

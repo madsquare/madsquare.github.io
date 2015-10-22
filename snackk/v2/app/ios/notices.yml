@@ -82,7 +82,7 @@ KR:
                 deeplink: close:hidden
             -
                 txt: 이벤트 보기
-                deeplink: http://btv2.snackk.tv/event/idol/info?utm_source=notice&utm_medium=ios&utm_campaign=snackk
+                deeplink: http://snackk.tv/event/idol/info?utm_source=notice&utm_medium=ios&utm_campaign=snackk
 
 TW: []
 CN: []

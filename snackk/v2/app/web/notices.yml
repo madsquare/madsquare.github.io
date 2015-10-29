@@ -5,3 +5,7 @@
 # - http://yaml-online-parser.appspot.com
 
 # tosq service에서 사용되는 각종 설정값을 정의하며 그 구조는 변경 가능하나 사전 협의 필요.
+
+KR: []
+TW: []
+CN: []

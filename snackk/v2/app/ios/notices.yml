@@ -70,19 +70,19 @@
 #             txt: 이벤트 보기
 #             deeplink: http://bit.ly/1iNIlJV
 
-KR:
-    -
-        id: 15101401
-        title: 어짜피 덕질할거 기부하며 덕질하자!
-        image: https://d2kpc3b1mv1660.cloudfront.net/app/notice/m_event_idol_popup_fix.jpg
-        block: false
-        btns:
-            -
-                txt: 그만보기
-                deeplink: close:hidden
-            -
-                txt: 이벤트 보기
-                deeplink: http://snackk.tv/event/idol/info?utm_source=notice&utm_medium=ios&utm_campaign=snackk
+# KR:
+#     -
+#         id: 15101401
+#         title: 어짜피 덕질할거 기부하며 덕질하자!
+#         image: https://d2kpc3b1mv1660.cloudfront.net/app/notice/m_event_idol_popup_fix.jpg
+#         block: false
+#         btns:
+#             -
+#                 txt: 그만보기
+#                 deeplink: close:hidden
+#             -
+#                 txt: 이벤트 보기
+#                 deeplink: http://snackk.tv/event/idol/info?utm_source=notice&utm_medium=ios&utm_campaign=snackk
 
-TW: []
-CN: []
+# TW: []
+# CN: []

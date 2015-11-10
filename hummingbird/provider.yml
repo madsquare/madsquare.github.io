@@ -1,0 +1,60 @@
+# syntax
+# - http://symfony.com/doc/current/components/yaml/yaml_format.html
+# please check validate
+# - http://codebeautify.org/yaml-validator
+# - http://yaml-online-parser.appspot.com
+
+youtube:
+    type: 1
+    icon:
+        normal: http://
+        small: http://
+        large: http://
+vimeo:
+    type: 2
+    icon:
+        normal: http://
+        small: http://
+        large: http://
+video:
+    type: 3
+    icon:
+        normal: http://
+        small: http://
+        large: http://
+image:
+    type: 4
+    icon:
+        normal: http://
+        small: http://
+        large: http://
+app:
+    type: 5
+    icon:
+        normal: http://
+        small: http://
+        large: http://
+facebook:
+    type: 6
+    icon:
+        normal: http://
+        small: http://
+        large: http://
+youku:
+    type: 7
+    icon:
+        normal: http://
+        small: http://
+        large: http://
+dailymotion:
+    type: 8
+    icon:
+        normal: http://
+        small: http://
+        large: http://
+navertvcast:
+    type: 9
+    icon:
+        normal: http://
+        small: http://
+        large: http://

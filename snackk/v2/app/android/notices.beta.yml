@@ -60,7 +60,7 @@
 # -
 #     id: 15092401
 #     title: 강~강~스낵하고 데이터 받자
-#     image: https://d2kpc3b1mv1660.cloudfront.net/app/notice/event_150924.jpg
+#     image: https://d2kpc3b1mv1660.cloudfront.net/app/notice/event_150924_02.jpg
 #     block: false
 #     btns:
 #         -
@@ -70,7 +70,6 @@
 #             txt: 이벤트 보기
 #             deeplink: http://bit.ly/1iNIlJV
 
-# KR:
 #     -
 #         id: 15101401
 #         title: 어짜피 덕질할거 기부하며 덕질하자!
@@ -82,12 +81,23 @@
 #                 deeplink: close:hidden
 #             -
 #                 txt: 이벤트 보기
-#                 deeplink: http://btv2.snackk.tv/event/idol/info?utm_source=notice&utm_medium=android&utm_campaign=snackk
+#                 deeplink: http://snackk.tv/event/idol/info?utm_source=notice&utm_medium=android&utm_campaign=snackk
 
 # TW: []
 # CN: []
 
-
-KR: []
+KR: 
+    -
+        id: 15111001
+        title: 나도 펫TV 운영자
+        image: https://d2kpc3b1mv1660.cloudfront.net/event/petween/notice/petween_mobile.png
+        block: false
+        btns:
+            -
+                txt: 오늘 그만보기
+                deeplink: close:hidden
+            -
+                txt: 이벤트 보기
+                deeplink: http://snackk.tv/event/idol/info?utm_source=notice&utm_medium=android&utm_campaign=snackk
 TW: []
 CN: []

@@ -50,7 +50,9 @@
 'common.duplicate_request': [
     409, "The requested operation is being processed previously."
 ]
-
+'common.timeout': [
+    408, "The server timed out waiting for the request."
+]
 
 # client
 'client.duplicate_client_name': [

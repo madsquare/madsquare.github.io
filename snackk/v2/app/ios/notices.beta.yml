@@ -51,11 +51,11 @@
 #     block: false
 #     btns:
 #         -
-#             txt: 오늘 그만보기
+#             txt: 그만보기
 #             deeplink: close:hidden
 #         -
 #             txt: 이벤트 보기
-#             deeplink: http://snackk.tv/event/open?utm_source=notice&utm_medium=android&utm_campaign=open_event
+#             deeplink: http://snackk.tv/event/open?utm_source=notice&utm_medium=ios&utm_campaign=open_event
 
 # -
 #     id: 15092401
@@ -64,12 +64,13 @@
 #     block: false
 #     btns:
 #         -
-#             txt: 오늘 그만보기
+#             txt: 그만보기
 #             deeplink: close:hidden
 #         -
 #             txt: 이벤트 보기
 #             deeplink: http://bit.ly/1iNIlJV
 
+# KR:
 #     -
 #         id: 15101401
 #         title: 어짜피 덕질할거 기부하며 덕질하자!
@@ -81,7 +82,7 @@
 #                 deeplink: close:hidden
 #             -
 #                 txt: 이벤트 보기
-#                 deeplink: http://snackk.tv/event/idol/info?utm_source=notice&utm_medium=android&utm_campaign=snackk
+#                 deeplink: http://snackk.tv/event/idol/info?utm_source=notice&utm_medium=ios&utm_campaign=snackk
 
 # TW: []
 # CN: []
@@ -98,6 +99,6 @@ KR:
                 deeplink: close:hidden
             -
                 txt: 이벤트 보기
-                deeplink: http://snackk.tv/event/idol/info?utm_source=notice&utm_medium=android&utm_campaign=snackk
+                deeplink: http://snackk.tv/event/petween?utm_source=notice&utm_medium=ios&utm_campaign=snackk
 TW: []
 CN: []

@@ -6,54 +6,63 @@
 
 youtube:
     type: 1
+    name: YouTube
     icon:
         normal: http://
         small: http://
         large: http://
 vimeo:
     type: 2
+    name: Vimeo
     icon:
         normal: http://
         small: http://
         large: http://
 video:
     type: 3
+    name: Video
     icon:
         normal: http://
         small: http://
         large: http://
 image:
     type: 4
+    name: Image
     icon:
         normal: http://
         small: http://
         large: http://
 app:
     type: 5
+    name: App
     icon:
         normal: http://
         small: http://
         large: http://
 facebook:
     type: 6
+    name: Facebook
     icon:
         normal: http://
         small: http://
         large: http://
 youku:
     type: 7
+    name: Youku
     icon:
         normal: http://
         small: http://
         large: http://
 dailymotion:
     type: 8
+    name: Dailymotion
     icon:
         normal: http://
         small: http://
         large: http://
 navertvcast:
     type: 9
+    name: NAVER tvcast
     icon:
         normal: http://
         small: http://

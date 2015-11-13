@@ -69,8 +69,13 @@
   ],
   "common.timeout": [
     408,
-    "The server timed out waiting for the request."
+    "The server encountered an error processing the request."
   ],
+  "common.facebook_api": [
+    500,
+    "A problem has occurred on Facebook API. Please retry later."
+  ],
+
   "client.duplicate_client_name": [
     409,
     "Only one client per user."

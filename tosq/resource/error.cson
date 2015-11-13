@@ -51,8 +51,12 @@
     409, "The requested operation is being processed previously."
 ]
 'common.timeout': [
-    408, "The server timed out waiting for the request."
+    408, "The server encountered an error processing the request."
 ]
+'common.facebook_api': [
+    500, "A problem has occurred on Facebook API. Please retry later."
+]
+
 
 # client
 'client.duplicate_client_name': [

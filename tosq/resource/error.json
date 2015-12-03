@@ -64,7 +64,7 @@
     "File size limit exceeded."
   ],
   "common.duplicate_request": [
-    409, 
+    409,
     "The requested operation is being processed previously."
   ],
   "common.timeout": [
@@ -75,6 +75,11 @@
     500,
     "A problem has occurred on Facebook API. Please retry later."
   ],
+  "common.not_exists_data": [
+    404,
+    "There is no data to return for the specified."
+  ],
+
 
   "client.duplicate_client_name": [
     409,
@@ -154,7 +159,7 @@
     "There is empty list."
   ],
   "subscription.self_channels_cannot_subscribe": [
-    400, 
+    400,
     "Self channels can not subscribe."
   ],
   "category.not_exists": [
@@ -221,7 +226,7 @@
     "Invalid privacy type or value."
   ],
   "channel.resource_limit_exceeded": [
-    400, 
+    400,
     "Exceed the maximum number of allowed resources."
   ],
   "resource.not_exists": [
@@ -249,7 +254,7 @@
     "The requested URL returned error."
   ],
   "resource.duplicate_original_resource": [
-    409, 
+    409,
     "This resource is already exists."
   ],
   "comment.not_exists": [
@@ -301,7 +306,7 @@
     "The type is invalid value."
   ],
   "timeline.not_exists": [
-    404, 
+    404,
     "There is no timeline to return for the specified."
   ],
   "timeline.duplicate_channel": [

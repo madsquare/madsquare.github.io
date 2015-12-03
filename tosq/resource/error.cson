@@ -56,6 +56,10 @@
 'common.facebook_api': [
     500, "A problem has occurred on Facebook API. Please retry later."
 ]
+'common.not_exists_data': [
+    404, "There is no data to return for the specified."
+]
+
 
 
 # client

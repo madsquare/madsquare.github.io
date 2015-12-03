@@ -1,47 +1,47 @@
 # common
-common.forbidden: 
+common.forbidden:
   - 403
   - "Access forbidden. The request may not be properly authorized."
-common.quota_exceeded: 
+common.quota_exceeded:
   - 403
   - "The rquest cannot be completed because you have exceed you quota."
-common.invalid_client: 
+common.invalid_client:
   - 403
   - "The request is invalid client data."
-common.invalid_authentication: 
+common.invalid_authentication:
   - 403
   - "The request is invalid authorization data."
-common.not_exist_token: 
+common.not_exist_token:
   - 403
   - "There is no token data."
-common.expired_access_token: 
+common.expired_access_token:
   - 403
   - "The token is expired."
-common.expired_refresh_token: 
+common.expired_refresh_token:
   - 403
   - "The token is expired."
-common.missing_required_parameter: 
+common.missing_required_parameter:
   - 400
   - "The request is missing a required parameter."
-common.method_not_allowed: 
+common.method_not_allowed:
   - 400
   - "The API call is correct, but the method is not allowed."
-common.unexpected_parameter: 
+common.unexpected_parameter:
   - 400
   - "The request specifies an unexpected parameter."
-common.authorization_required: 
+common.authorization_required:
   - 401
   - "The request uses the parameter required authorized but is not properly."
-common.required_permissions: 
+common.required_permissions:
   - 401
   - "Required permissions for request."
 common.invalid_parameter:
   - 400
   - "Invalid parameter value."
-common.invalid_since_no: 
+common.invalid_since_no:
   - 400
   - "If since_no and max_no is specified at the same time, since_no does not have to be a big number than max_no."
-common.invalid_json_string: 
+common.invalid_json_string:
   - 400
   - "Problems parsing JSON."
 common.file_limit_exceeded:
@@ -56,51 +56,54 @@ common.timeout:
 common.facebook_api:
   - 500
   - "A problem has occurred on Facebook API. Please retry later."
+common.not_exists_data: 
+  - 404
+  - "There is no data to return for the specified."
 
 
 # client
-client.duplicate_client_name: 
+client.duplicate_client_name:
   - 409
   - "Only one client per user."
 
 # user
-user.not_exists: 
+user.not_exists:
   - 404
   - "There is no user to return for the specified."
-user.invalid_email: 
+user.invalid_email:
   - 400
   - "Invalid email address. please only use alphanumeric characters."
-user.invalid_display_name: 
+user.invalid_display_name:
   - 400
   - "Invalid display name. please only starting in alphabet and allow use numeric and '-, _' characters."
-user.invalid_gender: 
+user.invalid_gender:
   - 400
   - "Invalid gender type."
-user.incorrect_email: 
+user.incorrect_email:
   - 404
   - "The email you entered does not belong to any account."
-user.incorrect_passwd: 
+user.incorrect_passwd:
   - 403
   - "Incorrect password."
-user.duplicate_email: 
+user.duplicate_email:
   - 409
   - "There is duplicate email user."
-user.duplicate_display_name: 
+user.duplicate_display_name:
   - 409
   - "There is duplicate display_name."
-user.invalid_login_info: 
+user.invalid_login_info:
   - 403
   - "Incorrect email or password."
-user.not_exist_verify_token: 
+user.not_exist_verify_token:
   - 403
   - "There is no data to verify the email address."
-user.not_exist_reset_passwd_token: 
+user.not_exist_reset_passwd_token:
   - 404
   - "There is no data to reset password."
-user.expired_reset_passwd_token: 
+user.expired_reset_passwd_token:
   - 403
   - "The reset password token is expired."
-user.not_matched_verify_token: 
+user.not_matched_verify_token:
   - 403
   - "User information does not match."
 user.already_verified_email:
@@ -110,7 +113,7 @@ user.unverified_email:
   - 403
   - "Email address is not verified."
 # 사용 안함.
-user.unauthorized_email: 
+user.unauthorized_email:
   - 403
   - "The unauthorized e-mail address."
 user.channel_limit_exceeded:
@@ -118,16 +121,16 @@ user.channel_limit_exceeded:
   - "Exceed the maximum number of allowed channels."
 
 # follow
-follow.cannot_follow_yourself: 
+follow.cannot_follow_yourself:
   - 400
   - "Error you cannot follow yourself."
 
 # subscription
-subscription.empty_channel: 
+subscription.empty_channel:
   - 404
   - "There is empty list."
 
-subscription.self_channels_cannot_subscribe: 
+subscription.self_channels_cannot_subscribe:
   - 400
   - "Self channels can not subscribe."
 
@@ -137,49 +140,49 @@ category.not_exists:
   - "There is no category to return for the specified."
 
 # channel
-channel.not_exists: 
+channel.not_exists:
   - 404
   - "There is no channel to return for the specified."
-channel.duplicate_resource: 
+channel.duplicate_resource:
   - 409
   - "This resource is already exists."
-channel.duplicate_original_resource: 
+channel.duplicate_original_resource:
   - 409
   - "This resource is already exists."
-channel.resource_not_exists: 
+channel.resource_not_exists:
   - 404
   - "There is no resource to return for the specified channel."
-channel.duplicate_number: 
+channel.duplicate_number:
   - 409
   - "This number is already exists."
-channel.duplicate_url: 
+channel.duplicate_url:
   - 409
   - "This url is already exists."
-channel.duplicate_name: 
+channel.duplicate_name:
   - 409
   - "This name is already exists."
-channel.already_been_registered: 
+channel.already_been_registered:
   - 409
   - "Other channels have already been registered."
-channel.invalid_state: 
+channel.invalid_state:
   - 400
   - "Invalid channel state value."
-channel.invalid_category: 
+channel.invalid_category:
   - 400
   - "Invalid channel category value."
-channel.invalid_label: 
+channel.invalid_label:
   - 400
   - "Invalid channel label value."
-channel.invalid_parameter_value: 
+channel.invalid_parameter_value:
   - 400
   - "Invalid parameter value."
-channel.invalid_url: 
+channel.invalid_url:
   - 400
   - "Invalid url value. please only starting in alphabet and allow use numeric and `-`, `_` characters."
-channel.invalid_ratings: 
+channel.invalid_ratings:
   - 400
   - "Invalid ratings value."
-channel.invalid_privacy: 
+channel.invalid_privacy:
   - 400
   - "Invalid privacy type or value."
 channel.resource_limit_exceeded:
@@ -187,75 +190,75 @@ channel.resource_limit_exceeded:
   - "Exceed the maximum number of allowed resources."
 
 # resource
-resource.not_exists: 
+resource.not_exists:
   - 404
   - "There is no resource to return for the specified."
-resource.invalid_type: 
+resource.invalid_type:
   - 500
   - "Invalid resource type."
-resource.not_supported_provider: 
+resource.not_supported_provider:
   - 500
   - "Not supported video provider.(only youtube, vimeo)."
-resource.video_not_found: 
+resource.video_not_found:
   - 404
   - "Cannot found video on url(site)."
-resource.forbidden_video: 
+resource.forbidden_video:
   - 403
   - "Cannot use on external site."
-resource.vimeo_required_authorization: 
+resource.vimeo_required_authorization:
   - 500
   - "The requested URL returned error."
-resource.duplicate_original_resource: 
+resource.duplicate_original_resource:
   - 409
   - "This resource is already exists."
 
 # comment
-comment.not_exists: 
+comment.not_exists:
   - 404
   - "There is no comment to return for the specified."
 
 # report
-report.not_exists: 
+report.not_exists:
   - 404
   - "There is no report to return for the specified."
 
 # sns
-sns.unsupport_provider: 
+sns.unsupport_provider:
   - 404
   - "It is unsupported provider."
-sns.cannot_authenticate: 
+sns.cannot_authenticate:
   - 500
   - "Cannot authenticate user."
-sns.unverified_email: 
+sns.unverified_email:
   - 400
   - "Only verified email address is possible."
-sns.not_exists_email: 
+sns.not_exists_email:
   - 400
   - "E-mail does not exist. Please check the information on the service."
-sns.invalid_token: 
+sns.invalid_token:
   - 403
   - "The request is invalid token data."
 
 # restriction
-restriction.invalid_etime: 
+restriction.invalid_etime:
   - 400
   - "Invalid end time value."
 
 # device
-device.invalid_secret: 
+device.invalid_secret:
   - 403
   - "The request is invalid secret data."
-device.not_exists: 
+device.not_exists:
   - 404
   - "There is no device to return for the specified."
 
 # activity
-activity.not_exists: 
+activity.not_exists:
   - 404
   - "There is no activity to return for the specified."
 
 # notification
-notification.invalid_type: 
+notification.invalid_type:
   - 400
   - "The type is invalid value."
 
@@ -269,46 +272,46 @@ timeline.duplicate_channel:
   - "There is duplicate channel."
 
 # validate
-validate.video_not_found: 
+validate.video_not_found:
   - 404
   - "Cannot found video on url(site)."
-validate.channel_not_found: 
+validate.channel_not_found:
   - 404
   - "Cannot found channel on url(site)."
-validate.forbidden_video: 
+validate.forbidden_video:
   - 403
   - "Cannot use on external site."
-validate.video_age_restricted: 
+validate.video_age_restricted:
   - 403
   - "Age Restricted video."
-validate.vimeo_required_authorization: 
+validate.vimeo_required_authorization:
   - 500
   - "The requested URL returned error."
 
 # cache
-cache.invalid_token: 
+cache.invalid_token:
   - 400
   - "The token value is invalid."
 
 # video
-video.not_found: 
+video.not_found:
   - 404
   - "Cannot found video on url(site)."
-video.channel_not_found: 
+video.channel_not_found:
   - 404
   - "Cannot found channel on url(site)."
-video.forbidden: 
+video.forbidden:
   - 403
   - "Cannot use on external site."
-video.age_restricted: 
+video.age_restricted:
   - 403
   - "Age Restricted video."
-video.vimeo_required_authorization: 
+video.vimeo_required_authorization:
   - 500
   - "The requested URL returned error."
-video.not_supported_provider: 
+video.not_supported_provider:
   - 500
   - "Not supported video provider.(only youtube, vimeo, facebook)."
-video.invalid_url: 
+video.invalid_url:
   - 500
   - "Invalid url. It will not be able to get the information."

@@ -86,6 +86,18 @@
 # TW: []
 # CN: []
 
-KR: []
+KR: 
+    -
+        id: 15120401
+        title: 나도 펫TV 운영자
+        image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/event/petween/notice/petween_mobile_finish.png
+        block: false
+        btns:
+            -
+                txt: 그만보기
+                deeplink: close:hidden
+            -
+                txt: 결과 보기
+                deeplink: https://www.petween.co.kr/toktok/event_view.petween?idx=902&ing_flag=N
 TW: []
 CN: []

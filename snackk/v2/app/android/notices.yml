@@ -88,16 +88,16 @@
 
 KR: 
     -
-        id: 15120401
-        title: 나도 펫TV 운영자
-        image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/event/petween/notice/petween_mobile_finish.png
+        id: 15120801
+        title: 킹두맨 이벤트
+        image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/event/cultwo/mobile/mobile_popup_low.png
         block: false
         btns:
             -
                 txt: 그만보기
                 deeplink: close:hidden
             -
-                txt: 결과 보기
-                deeplink: https://www.petween.co.kr/toktok/event_view.petween?idx=902&ing_flag=N
+                txt: 이벤트 보기
+                deeplink: https://support.snackk.tv/hc/ko/articles/215484697
 TW: []
 CN: []

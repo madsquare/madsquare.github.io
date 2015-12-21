@@ -87,18 +87,6 @@
 # TW: []
 # CN: []
 
-KR: 
-    -
-        id: 15120801
-        title: 킹두맨 이벤트
-        image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/event/cultwo/mobile/mobile_popup_low.png
-        block: false
-        btns:
-            -
-                txt: 그만보기
-                deeplink: close:hidden
-            -
-                txt: 이벤트 보기
-                deeplink: https://support.snackk.tv/hc/ko/articles/215484697
+KR: []
 TW: []
 CN: []

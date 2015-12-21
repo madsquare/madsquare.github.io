@@ -10,3 +10,4 @@
  * [Queue-Based Load Leveling Pattern](https://msdn.microsoft.com/en-us/library/dn589783.aspx)
  * [Retry Pattern](https://msdn.microsoft.com/en-us/library/dn589788.aspx)
  * [Sharding Pattern](https://msdn.microsoft.com/en-us/library/dn589797.aspx)
+* [Frontend Development](https://github.com/dypsilon/frontend-dev-bookmarks)

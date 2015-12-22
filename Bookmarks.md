@@ -11,3 +11,11 @@
  * [Retry Pattern](https://msdn.microsoft.com/en-us/library/dn589788.aspx)
  * [Sharding Pattern](https://msdn.microsoft.com/en-us/library/dn589797.aspx)
 * [Frontend Development](https://github.com/dypsilon/frontend-dev-bookmarks)
+
+
+# Guidelines
+
+* [REST API 디자인 가이드](http://bcho.tistory.com/914)
+* [REST API 이해와 설계 - #1 개념 소개](http://bcho.tistory.com/953)
+* [REST API 이해와 설계 - #2 API 설계 가이드](http://bcho.tistory.com/954)
+* [REST API 이해와 설계 - #3 API 보안](http://bcho.tistory.com/955)

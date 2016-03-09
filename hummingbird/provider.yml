@@ -4,66 +4,73 @@
 # - http://codebeautify.org/yaml-validator
 # - http://yaml-online-parser.appspot.com
 
+card:
+    type: 0
+    name: 'SNACKK'
+    icon:
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_snackk.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_snackk.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_snackk@2x.png
 youtube:
     type: 1
     name: YouTube
     icon:
-        normal: http://
-        small: http://
-        large: http://
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_youtube.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_youtube.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_youtube@2x.png
 vimeo:
     type: 2
     name: Vimeo
     icon:
-        normal: http://
-        small: http://
-        large: http://
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_dailymotion.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_dailymotion.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_dailymotion@2x.png
 video:
     type: 3
     name: Video
     icon:
-        normal: http://
-        small: http://
-        large: http://
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_video.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_video.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_video@2x.png
 image:
     type: 4
     name: Image
     icon:
-        normal: http://
-        small: http://
-        large: http://
+        normal: https://
+        small: https://
+        large: https://
 app:
     type: 5
     name: App
     icon:
-        normal: http://
-        small: http://
-        large: http://
+        normal: https://
+        small: https://
+        large: https://
 facebook:
     type: 6
     name: Facebook
     icon:
-        normal: http://
-        small: http://
-        large: http://
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_fb.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_fb.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_fb@2x.png
 youku:
     type: 7
     name: Youku
     icon:
-        normal: http://
-        small: http://
-        large: http://
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_youku.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_youku.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_youku@2x.png
 dailymotion:
     type: 8
     name: Dailymotion
     icon:
-        normal: http://
-        small: http://
-        large: http://
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_dailymotion.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_dailymotion.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_dailymotion@2x.png
 navertvcast:
     type: 9
     name: NAVER tvcast
     icon:
-        normal: http://
-        small: http://
-        large: http://
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvcast.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvcast.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvcast@2x.png

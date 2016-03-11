@@ -29,9 +29,9 @@ video:
     type: 3
     name: Video
     icon:
-        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_video.png
-        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_video.png
-        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_video@2x.png
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_empty.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_empty.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_empty@2x.png
 image:
     type: 4
     name: Image
@@ -74,3 +74,17 @@ navertvcast:
         normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvcast.png
         small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvcast.png
         large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvcast@2x.png
+rutube:
+    type: 10
+    name: Rutube
+    icon:
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_rutube.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_rutube.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_rutube@2x.png
+daumtvpot:
+    type: 11
+    name: tvpot
+    icon:
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvpot.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvpot.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvpot@2x.png

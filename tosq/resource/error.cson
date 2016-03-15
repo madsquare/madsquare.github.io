@@ -59,6 +59,9 @@
 'common.not_exists_data': [
     404, "There is no data to return for the specified."
 ]
+'common.limit_exceeded': [
+    400, "Exceed the maximum number of allowed."
+]
 
 
 
@@ -132,6 +135,9 @@
 ]
 'subscription.self_channels_cannot_subscribe': [
     400, "Self channels can not subscribe."
+]
+'favorite.self_cannot_favorite': [
+    400, "Self can not favorite."
 ]
 
 # category

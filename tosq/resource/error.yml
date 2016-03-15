@@ -56,9 +56,12 @@ common.timeout:
 common.facebook_api:
   - 500
   - "A problem has occurred on Facebook API. Please retry later."
-common.not_exists_data: 
+common.not_exists_data:
   - 404
   - "There is no data to return for the specified."
+common.limit_exceeded:
+  - 400
+  - "Exceed the maximum number of allowed."
 
 
 # client
@@ -133,6 +136,10 @@ subscription.empty_channel:
 subscription.self_channels_cannot_subscribe:
   - 400
   - "Self channels can not subscribe."
+
+favorite.self_cannot_favorite:
+  - 400
+  - "Self can not favorite."
 
 # category
 category.not_exists:

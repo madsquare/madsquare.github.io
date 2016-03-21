@@ -22,9 +22,9 @@ vimeo:
     type: 2
     name: Vimeo
     icon:
-        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_dailymotion.png
-        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_dailymotion.png
-        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_dailymotion@2x.png
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_vimeo.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_vimeo.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_vimeo@2x.png
 video:
     type: 3
     name: Video

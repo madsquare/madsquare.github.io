@@ -25,21 +25,21 @@
 #         -
 #             txt: 확인
 #             deeplink: https://btv2.snackk.tv/help/notice/206827167
-#             type: 
+#             type:
 
 # -
 #     id: 15072801
 #     title: '채널 딥링크 - 버튼: 그만보기 이동히가'
 #     image: https://s3-ap-northeast-1.amazonaws.com/tosq.tv/app/notice/deeplink_ch.png
 #     block: false
-#     btns: 
+#     btns:
 #         -
 #             txt: 그만보기
 #             deeplink: close:hidden
-#         - 
+#         -
 #             txt: 이동하기
 #             deeplink: tosq://ch/2470
-#             data: 
+#             data:
 #                 route: channel
 #                 user:
 #                     us_no: 2470
@@ -87,6 +87,15 @@
 # TW: []
 # CN: []
 
-KR: []
+KR:
+  -
+    id: 160328
+    title: SNACKK이 새로워집니다.
+    image: https://d2kpc3b1mv1660.cloudfront.net/app/notice/notice_160328_01.png
+    block: false
+    btns:
+      -
+        txt: 그만보기
+        deeplink: close:hidden
 TW: []
 CN: []

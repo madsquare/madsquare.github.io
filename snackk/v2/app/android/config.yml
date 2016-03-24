@@ -6,7 +6,10 @@
 
 KR:
     skin: ''
-TW: 
+    tutorial: true
+TW:
     skin: ''
-CN: 
+    tutorial: true
+CN:
     skin: ''
+    tutorial: true

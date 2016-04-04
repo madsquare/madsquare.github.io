@@ -5,8 +5,8 @@
 # - http://yaml-online-parser.appspot.com
 
 KR:
-  start: http://stv2.snackk.tv/feed
+  start: http://stg.snackk.tv/feed
 TW:
-  start: http://stv2.snackk.tv/feed
+  start: http://stg.snackk.tv/feed
 CN:
-  start: http://stv2.snackk.tv/feed
+  start: http://stg.snackk.tv/feed

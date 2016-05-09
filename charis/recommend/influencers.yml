@@ -4,26 +4,100 @@
 # - http://codebeautify.org/yaml-validator
 # - http://yaml-online-parser.appspot.com
 
-setting:
-  logo:
-    HK: http://seller-beta.hicharis.net/images/country/hk.svg
-    TW: http://seller-beta.hicharis.net/images/country/tw.svg
-    SG: http://seller-beta.hicharis.net/images/country/sg.svg
-    CN: http://seller-beta.hicharis.net/images/country/cn.svg
-    KR: http://seller-beta.hicharis.net/images/country/kr.svg
-
 influencers:
   -
     name: 沛莉(Peri)
-    country: HK
+    country: TW
     sns:
       type: facebook
-      url: http://facebook.com/device
+      url: https://www.facebook.com/peri.com.tw
+  -
+    name: 小日刀口
+    country: TW
+    sns:
+      type: maipai
+      url: http://www.meipai.com/user/1020136260
+
   -
     name: Catie
     country: TW
     sns:
       type: instagram
-      url: https://www.instagram.com/catie
+      url: https://www.instagram.com/hellocatie45/
 
-      
+  -
+    name: BEAUTYQQ
+    country: HK
+    sns:
+      type: youtube
+      url: https://www.youtube.com/user/BEAUTYQQ
+
+  -
+    name: Ha Alice
+    country: HK
+    sns:
+      type: instagram
+      url: https://www.instagram.com/aliceha/
+
+  -
+    name: Jessica Wong
+    country: HK
+    sns:
+      type: instagram
+      url: https://www.instagram.com/jessicawong_wt/
+
+  -
+    name: Cynthia默小宝
+    country: CN
+    sns:
+      type: weibo
+      url: http://weibo.com/simooo?is_hot=1
+
+  -
+    name: FancyMark
+    country: CN
+    sns:
+      type: meipai
+      url: http://www.meipai.com/user/20924005
+
+  -
+    name: vicky_卷卷卷
+    country: CN
+    sns:
+      type: meipai
+      url: http://www.meipai.com/user/21020561
+
+  -
+    name: Xiaxue
+    country: SG
+    sns:
+      type: instagram
+      url: https://www.instagram.com/xiaxue/
+
+  -
+    name: KARMAN加文
+    country: SG
+    sns:
+      type: youtube
+      url: https://www.youtube.com/user/puffedupcheeks2
+
+  -
+    name: loveforskincareblogg
+    country: SG
+    sns:
+      type: blog
+      url: http://loveforskincare.com/
+
+  -
+    name: 씬님
+    country: KR
+    sns:
+      type: youtube
+      url: https://www.youtube.com/user/Hines382
+
+  -
+    name: PONY
+    country: KR
+    sns:
+      type: instagram
+      url: https://www.instagram.com/ponysmakeup/

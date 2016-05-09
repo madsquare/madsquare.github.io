@@ -1,0 +1,29 @@
+# syntax
+# - http://symfony.com/doc/current/components/yaml/yaml_format.html
+# please check validate
+# - http://codebeautify.org/yaml-validator
+# - http://yaml-online-parser.appspot.com
+
+setting:
+  logo:
+    HK: http://seller-beta.hicharis.net/images/country/hk.svg
+    TW: http://seller-beta.hicharis.net/images/country/tw.svg
+    SG: http://seller-beta.hicharis.net/images/country/sg.svg
+    CN: http://seller-beta.hicharis.net/images/country/cn.svg
+    KR: http://seller-beta.hicharis.net/images/country/kr.svg
+
+influencers:
+  -
+    name: 沛莉(Peri)
+    country: HK
+    sns:
+      type: facebook
+      url: http://facebook.com/device
+  -
+    name: Catie
+    country: TW
+    sns:
+      type: instagram
+      url: https://www.instagram.com/catie
+
+      

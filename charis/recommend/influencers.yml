@@ -20,13 +20,6 @@ influencers:
       url: http://www.meipai.com/user/1020136260
 
   -
-    name: Catie
-    country: TW
-    sns:
-      type: instagram
-      url: https://www.instagram.com/hellocatie45/
-
-  -
     name: BEAUTYQQ
     country: HK
     sns:
@@ -39,13 +32,6 @@ influencers:
     sns:
       type: instagram
       url: https://www.instagram.com/aliceha/
-
-  -
-    name: Jessica Wong
-    country: HK
-    sns:
-      type: instagram
-      url: https://www.instagram.com/jessicawong_wt/
 
   -
     name: Cynthia默小宝
@@ -62,13 +48,6 @@ influencers:
       url: http://www.meipai.com/user/20924005
 
   -
-    name: vicky_卷卷卷
-    country: CN
-    sns:
-      type: meipai
-      url: http://www.meipai.com/user/21020561
-
-  -
     name: Xiaxue
     country: SG
     sns:
@@ -81,13 +60,6 @@ influencers:
     sns:
       type: youtube
       url: https://www.youtube.com/user/puffedupcheeks2
-
-  -
-    name: loveforskincareblogg
-    country: SG
-    sns:
-      type: blog
-      url: http://loveforskincare.com/
 
   -
     name: 씬님

@@ -1,0 +1,12 @@
+# syntax
+# - http://symfony.com/doc/current/components/yaml/yaml_format.html
+# please check validate
+# - http://codebeautify.org/yaml-validator
+# - http://yaml-online-parser.appspot.com
+
+00:
+  api: https://eu-api.snackk.tv
+  hummingbird: http://eu-hm.snackk.tv
+UK:
+  api: https://eu-api.snackk.tv
+  hummingbird: http://eu-hm.snackk.tv

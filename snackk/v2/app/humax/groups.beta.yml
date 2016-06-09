@@ -1,0 +1,22 @@
+# syntax
+# - http://symfony.com/doc/current/components/yaml/yaml_format.html
+# please check validate
+# - http://codebeautify.org/yaml-validator
+# - http://yaml-online-parser.appspot.com
+
+00:
+  -
+    name: ALL
+    api: /v2/humax/groups/all/channels?sort=%5B%7B%22field%22%3A%22major%22%2C%22dir%22%3A%22ASC%22%7D%5D
+    priority: 1
+    icon_url: https://d2gy11er63bat0.cloudfront.net/app/img/menu/humax/tv_ic_category_entertainment.png
+  -
+    name: MUSIC
+    api: /v2/humax/groups/all/channels?sort=%5B%7B%22field%22%3A%22major%22%2C%22dir%22%3A%22ASC%22%7D%5D
+    priority: 1
+    icon_url: https://d2gy11er63bat0.cloudfront.net/humax/groups/tv_ic_category_music.png
+  -
+    name: SPORTS
+    api: /v2/humax/groups/all/channels?sort=%5B%7B%22field%22%3A%22major%22%2C%22dir%22%3A%22ASC%22%7D%5D
+    priority: 1
+    icon_url: https://d2gy11er63bat0.cloudfront.net/humax/groups/tv_ic_category_sport.png

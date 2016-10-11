@@ -92,6 +92,6 @@ sbs:
     type: 13
     name: sbs
     icon:
-        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvpot.png
-        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvpot.png
-        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_tvpot@2x.png
+        normal: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_sbs.png
+        small: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_sbs.png
+        large: https://d2kpc3b1mv1660.cloudfront.net/app/hummingbird/icons/ic_sbs@2x.png

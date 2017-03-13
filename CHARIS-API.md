@@ -106,6 +106,7 @@ celebs | Array[Celeb] | 셀럽 목록
 
 Field | Type | Description
 ---|---|---
+uid | String | PK
 nickname | String | 닉네임
 country | String | 국가코드 (ISO 3166-1 alpha-2)
 social_media | Array | 소셜미디어 정보

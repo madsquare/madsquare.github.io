@@ -26,6 +26,7 @@ Field | Type | Description
 uid | String | PK
 nickname | String | 닉네임
 country | String | 국가코드 (ISO 3166-1 alpha-2)
+profile_url | String | 프로필 이미지 URL
 social_media | Array | 소셜미디어 정보
 
 ### Social Media
@@ -52,8 +53,10 @@ Authorization: Basic __BASIC_TOKEN__
   "totalPage": 77,
   "celebs": [
     {
+      "uid": "USXXXXXX",
       "nickname": "Aiden Ahn",
       "country": "KR",
+      "profile_url": "https://...",
       "social_media": [
         {
           "type": "facebook",

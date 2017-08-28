@@ -1,4 +1,4 @@
-# Samsung partners
+# Tving partners
 
 ## GET /v1/partners/tving/banners
 

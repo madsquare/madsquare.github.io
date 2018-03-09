@@ -1,0 +1,54 @@
+<html>
+<head>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/enc-base64.min.js"></script>
+  <style type="text/css">
+  .item {
+    margin: 10px 0;
+  }
+  label {
+    font-weight: bold;
+  }
+  .result {
+    white-space: pre-wrap
+  }
+  </style>
+</head>
+<body>
+  <h1>Response</h1>
+
+  <div id="token" class="item"><label>Token: </label><div class="result"></div></div>
+  <div id="response" class="item"><label>Reponse: </label><div class="result"></div></div>
+
+  <script type="text/javascript">
+  $(document.body).ready(function () {
+    var endpoint = 'https://api.hicharis.net'
+    var client = {
+      id: '__CLIENT_ID__',
+      secret: '__CLIENT_SECRET__'
+    }
+    var ts = Date.now()
+    var secret = CryptoJS.MD5(client.secret + ts)
+    var token = CryptoJS.enc.Base64.stringify(
+      CryptoJS.enc.Utf8.parse([client.id, secret, ts].join(':'))
+    )
+
+    // request
+    $.ajax({
+      url: endpoint + '/api/verify',
+      headers: {
+        Authorization: ['Basic', token].join(' ')
+      },
+      json: true,
+      success: function (res) {
+        // debug
+        $('#token div').text(token)
+        $('#response div').text(JSON.stringify(res, null, 2))
+      }
+    })
+  })
+  </script>
+</body>
+</html>

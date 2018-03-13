@@ -1,0 +1,219 @@
+<html>
+<head>
+  <meta name=viewport content="width=device-width,user-scalable=no,minimal-ui">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/enc-base64.min.js"></script>
+  <style type="text/css">
+  .form-group .form-control+.form-control {
+    margin-top: 0.5em;
+  }
+  #response {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+  }
+  .charis-sg-item {
+    position: relative;
+    background-color: #fff;
+    margin: 0 15px 25px 15px;
+    padding: 15px 15px 10px;
+    box-shadow: 4px 3px 5px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 4px 3px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+  .charis-sg-item a {
+    text-decoration: none;
+  }
+  .charis-sg-item-content {
+    position: relative;
+    padding-left: 103px;
+    min-height: 100px;
+    font-size: 14px;
+  }
+  .charis-sg-thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 95px;
+  }
+  .charis-sg-thumb img {
+    width: 95px;
+    height: 95px;
+  }
+  .charis-sg-discount {
+    position: absolute;
+    top: 77px;
+    left: 0;
+    width: 95px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #000;
+  }
+  .charis-sg-meta-brand,
+  .charis-sg-meta-brand a {
+    color: #777;
+    font-size: 11px;
+  }
+  .charis-sg-meta-name,
+  .charis-sg-meta-name a {
+    color: #121314;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  .charis-sg-price {
+    position: absolute;
+    bottom: 0;
+  }
+  .charis-sg-price-fixed {
+    color: #777;
+    text-decoration: line-through;
+  }
+  .charis-sg-price-sale {
+    color: #d0011b;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h2>Parameters</h2>
+        <form id="frm">
+          <div class="form-group">
+            <label>Number of page</label>
+            <input type="text" name="page" class="form-control" value="1">
+          </div>
+          <div class="form-group">
+            <label>Number of results returned</label>
+            <input type="text" name="limit" class="form-control" value="5">
+          </div>
+          <div class="form-group">
+            <label>Language Code</label>
+            <input type="text" name="lang" class="form-control" value="en">
+          </div>
+          <div class="form-group">
+            <label>Category Code</label>
+            <input type="text" name="category" class="form-control" value="CAHJEGQMOS">
+          </div>
+          <div class="form-group">
+            <label>Seller uid</label>
+            <input type="text" name="seller_id" class="form-control" value="US57933191Ekdo9EkTx" placeholder="USXXX">
+            <input type="text" name="seller_id" class="form-control" value="" placeholder="USXXX">
+          </div>
+          <div class="form-group">
+            <label>Sale item url</label>
+            <input type="text" name="url" class="form-control" value="" placeholder="https://hicharis.net/charis/2Lq">
+            <input type="text" name="url" class="form-control" value="" placeholder="https://hicharis.net/charis/3ns">
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+      <div class="col-12 col-md-6">
+        <h2>Response</h2>
+        <div id="response"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  var charis = {
+    api: {
+      ENDPOINT: 'https://api.hicharis.net',
+      basicToken: function () {
+        var client = {
+          id: '__CLIENT_ID__',
+          secret: '__CLIENT_SECRET__'
+        }
+        var ts = Date.now()
+        var secret = CryptoJS.MD5(client.secret + ts)
+        var token = CryptoJS.enc.Base64.stringify(
+          CryptoJS.enc.Utf8.parse([client.id, secret, ts].join(':'))
+        )
+        return token
+      }
+    },
+    tpl: {
+      salegoods: function (o) {
+        var url = o.url + '?utm_source=facetofeet&utm_medium=article&utm_campaign=partners'
+        return [
+          '<div class="charis-sg-item">',
+          '<div class="charis-sg-item-content">',
+          '<div class="charis-sg-thumb"><a href="', url, '"><img src="', o.thumb_img + '"></a></div>',
+          o.discount_rate > 0 ? '<div class="charis-sg-discount">' + o.discount_rate + '% OFF</div>' : '',
+          '<div class="charis-sg-meta">',
+          '<div class="charis-sg-meta-brand"><a href="', url, '">', o.meta.brand, '</a></div>',
+          '<div class="charis-sg-meta-name"><a href="', url, '">', o.meta.name, '</a></div>',
+          '</div>', // charis-sg-meta
+          '<div class="charis-sg-price">',
+          o.discount_rate > 0 ? '<div class="charis-sg-price-fixed">' + charis.currency.USD(o.fixed_price) + '</div>' : '',
+          '<div class="charis-sg-price-sale">' + charis.currency.USD(o.price) + '</div>',
+          '</div>', // charis-sg-price
+          '</div>', // charis-sg-item-content
+          '</div>'  // charis-sg-item
+        ].join('')
+      }
+    },
+    currency: {
+      USD: function (v) {
+        return '$ ' + Number(v).toFixed(2)
+      }
+    }
+  }
+  $(document.body).ready(function () {
+    var $frm = $('#frm')
+    $frm.submit(function () {
+      var page = $frm.find('input[name=page]').val()
+      var limit = $frm.find('input[name=limit]').val()
+      var lang = $frm.find('input[name=lang]').val()
+      var currency = 'USD'
+      var filter = {
+        category: $frm.find('input[name=category]').val(),
+        seller_id: [],
+        url: []
+      }
+      // set seller_id
+      $frm.find('input[name=seller_id]').each(function (idx, el) {
+        $(el).val() && filter.seller_id.push($(el).val())
+      })
+      $frm.find('input[name=url]').each(function (idx, el) {
+        $(el).val() && filter.url.push($(el).val())
+      })
+
+      $.ajax({
+        url: charis.api.ENDPOINT + '/v1/partners/facetofeet/salegoods?' + [
+          'page=' + page,
+          'limit=' + limit,
+          'lang=' + lang,
+          'currency=' + currency,
+          'filter=' + JSON.stringify(filter)
+        ].join('&'),
+        headers: {
+          Authorization: ['Basic', charis.api.basicToken()].join(' ')
+        },
+        json: true,
+        success: function (res) {
+          var html = []
+          for (var i = 0, len = res.result.saleGoods.length; i < len; i++) {
+            html.push(charis.tpl.salegoods(res.result.saleGoods[i]))
+          }
+          $('#response').html(html.join(''))
+        }
+      })
+      return false
+    })
+
+    $frm.submit()
+  })
+  </script>
+</body>
+</html>

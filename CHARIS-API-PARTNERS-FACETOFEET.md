@@ -205,3 +205,110 @@ Authorization: Basic __BASIC_TOKEN__
   }
 }
 ```
+
+## GET /v1/partners/facetofeet/salegoods/search?filter={"keyword":""}
+
+Search salegoods by keyword
+
+### Parameter
+
+Field | Type | Description | Default
+---|---|---|---
+page | Number | Number of page | 1
+limit | Number | Number of results returned | 10
+lang | String | Language code | `en`
+currency | String | Currency code | `USD`
+keyword | String | Search Keyword | 
+
+* Supported Currency Codes : `USD`, `KRW`, `THB`, `IDR`, `MYR`, `VND`, `PHP`, `SGD`, `TWD`, `CNY`
+
+### Response
+
+Field | Type | Description
+---|---|---
+result.page | Number | Number of page
+result.limit | Number | Number of results returned
+result.totalCount | Number | Total number of search result values
+result.totalPage | Number | Total number of pages
+result.list | Array[SALEGOODS] | Search results of sale items
+
+#### SALEGOODS
+Field | Type | Description
+---|---|---
+sku | String | SKU
+currency | String | Currency code
+fixed_price | Number | Price before discount
+price | Number | Actual selling price
+discount_rate | Number | Discount rate
+thumb_img | String | Thumbnail image url
+meta | Object | Meta Data
+meta.name | String | Name of sales item
+meta.brand | String | Brand name
+url | String | Details page url for sales item
+shipping_supply | String | Shipping support type (`free`, `half`, null)
+seller | Object | Seller data
+seller.uid | String | Seller's `uid`
+seller.nickname | String | Nickname
+seller.url | String | Shop url
+seller.profile_img | String | Profile image url
+
+##### Search API
+```
+GET /v1/partners/facetofeet/salegoods/search?page=1&limit=10 HTTP/1.1
+Host: api.hicharis.net
+Content-Type: application/json
+Authorization: Basic __BASIC_TOKEN__
+```
+
+```javascript
+{
+  "searchModel": {
+    "page": 1,
+    "limit": 10,
+    "totalCount": 2,
+    "totalPage": 1,
+    "list": [
+      {
+        "sku": "SG17738B19EYSWVQB1",
+        "currency": "USD",
+        "fixed_price": 18.99,
+        "price": 12.99,
+        "discount_rate": 32,
+        "thumb_img": "https://img.hicharis.net/unsafe/165x165/http%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fprd.charis.img%2Fproducts%2FP17561HJHENLPRMB1X%2F201801_ryelDVTaBz.jpg",
+        "meta": {
+          "name": "[Romand]CREAMY LIPSTICK",
+          "brand": "Facetofeet"
+        },
+        "url": "https://hicharis.net/facetofeet/9b6",
+        "shipping_supply": null,
+        "seller": {
+          "uid": "US17637RY1T4AW2GBJ",
+          "nickname": "facetofeet",
+          "url": "https://hicharis.net/facetofeet",
+          "profile_img": "https://img.hicharis.net/unsafe/126x126/http%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fprd.charis.img%2Fusers%2FUS17637RY1T4AW2GBJ%2F201804_rJgXNRyX2f.png"
+        }
+      },
+      {
+        "sku": "SG17738BKSFESWE7HY",
+        "currency": "USD",
+        "fixed_price": 13.74,
+        "price": 10.99,
+        "discount_rate": 21,
+        "thumb_img": "https://img.hicharis.net/unsafe/165x165/http%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fprd.charis.img%2Fproducts%2FP17707B1TVCGCQH1GY%2F201806_SJlYZ8NfMm.jpg",
+        "meta": {
+          "name": "Romand Zerogram Matt Lipstick",
+          "brand": "Facetofeet"
+        },
+        "url": "https://hicharis.net/facetofeet/9b8",
+        "shipping_supply": null,
+        "seller": {
+          "uid": "US17637RY1T4AW2GBJ",
+          "nickname": "facetofeet",
+          "url": "https://hicharis.net/facetofeet",
+          "profile_img": "https://img.hicharis.net/unsafe/126x126/http%3A%2F%2Fs3.ap-southeast-1.amazonaws.com%2Fprd.charis.img%2Fusers%2FUS17637RY1T4AW2GBJ%2F201804_rJgXNRyX2f.png"
+        }
+      }
+    ]
+  }
+}
+```
